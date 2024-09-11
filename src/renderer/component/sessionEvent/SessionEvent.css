@@ -1,0 +1,63 @@
+.time {
+  margin-left: 10px;
+  font-size: small;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  margin-left: -2.5%;
+}
+
+.event_name {
+  margin-left: 10px;
+  font-size: small;
+  border: solid darkgray 1px;
+  border-radius: 5px;
+  padding: 5px 5px 5px 5px;
+  background-color: #000000;
+}
+
+.item_header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex: content;
+  flex-direction: row;
+}
+
+.session {
+  display: flex;
+  min-width: 50%;
+  flex-direction: column;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  padding-top: 5px;
+  margin-left: 30px;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.content {
+  background-color: #171717;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  border-radius: 10px;
+}
